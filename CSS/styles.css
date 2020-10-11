@@ -1,9 +1,10 @@
 body{
     background-color:saddlebrown;
+    overflow-x:hidden;
 }
 
 .navbar{
-    background-color:rgba(0,0,0,0.01)!important;
+    background-color:rgba(0,0,0,0.06)!important;
     font-weight:700;
     font-size:1rem;
     letter-spacing:.1rem;
@@ -18,25 +19,25 @@ body{
 }
 
 .home-background{
-    background-image:url("../Images/coffeeshop.jpg");
-    width: 100%;
-    height: 969px;
+    background-image:url("../Images/coffeeshopdark.png");
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
     background-repeat: no-repeat;
 }
 
-.home-background-color{
+.background-container{
     height:969px;
-    width:100%;
+}
+
+.tint{
     background-color:rgba(0,0,0,0.6)!important;
+    height: 100%;
 }
 
 .home-caption{
     color:white;
     text-align:center;
-    padding-top:20%;
     font-size:50px;
     text-shadow: 3px 4px 4px #000000;
 }
@@ -79,8 +80,15 @@ body{
 
 
 .text-col p{
-    font-size:40px;
     color:white;
+}
+
+.label{
+    font-size:40px;
+}
+
+.description{
+    font-size:20px;
 }
 
 .col{
@@ -91,9 +99,11 @@ body{
     width:100%;
 }
 
+
 footer{
     background-color:black;
     color:white;
     height:100px;
     text-align:center;
+    padding:44px;
 }
