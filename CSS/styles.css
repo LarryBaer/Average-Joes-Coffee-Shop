@@ -1,6 +1,7 @@
 body{
     background-color:saddlebrown;
     overflow-x:hidden;
+    height:100%:
 }
 
 .navbar{
@@ -8,10 +9,6 @@ body{
     font-weight:700;
     font-size:1rem;
     letter-spacing:.1rem;
-}
-
-.navbar-nav{
-    
 }
 
 .nav-item{
@@ -24,11 +21,14 @@ body{
     background-position: center center;
     background-attachment: fixed;
     background-repeat: no-repeat;
+    height:100vh;
 }
 
+
 .background-container{
-    height:969px;
+    height:100vh;
 }
+
 
 .tint{
     background-color:rgba(0,0,0,0.6)!important;
