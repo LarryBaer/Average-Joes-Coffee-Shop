@@ -1,11 +1,11 @@
 body{
-    background-color:saddlebrown;
+    background-color:black;
     overflow-x:hidden;
     height:100%:
 }
 
 .navbar{
-    background-color:rgba(0,0,0,0.06)!important;
+    background-color:rgba(0,0,0,0.01)!important;
     font-weight:700;
     font-size:1rem;
     letter-spacing:.1rem;
@@ -15,6 +15,10 @@ body{
     padding-right:40px;
 }
 
+.logo{
+    width:85%;
+}
+
 .home-background{
     background-image:url("../Images/coffeeshopdark.png");
     background-size: cover;
@@ -22,13 +26,13 @@ body{
     background-attachment: fixed;
     background-repeat: no-repeat;
     height:100vh;
+    top: 0;
+    z-index:10;
 }
-
 
 .background-container{
     height:100vh;
 }
-
 
 .tint{
     background-color:rgba(0,0,0,0.6)!important;
@@ -38,7 +42,7 @@ body{
 .home-caption{
     color:white;
     text-align:center;
-    font-size:50px;
+    font-size:60px;
     text-shadow: 3px 4px 4px #000000;
 }
 
@@ -49,6 +53,8 @@ body{
 
 .btn-primary{
     background-color:#5e0f01;
+    padding:15px;
+    border:none;
 }
 
 .btn-primary:hover{
@@ -91,8 +97,14 @@ body{
     font-size:20px;
 }
 
+.color p{
+    color:white;
+}
+
 .col{
     padding:0;
+    margin-left:50px;
+    margin-right:50px;
 }
 
 .col img{
@@ -106,4 +118,14 @@ footer{
     height:100px;
     text-align:center;
     padding:44px;
+}
+
+/*-----------------MENU------------------------*/
+.menu-container{
+    margin-top:150px;
+}
+
+.product-name{
+    text-align:center;
+    color:white
 }
