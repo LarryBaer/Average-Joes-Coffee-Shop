@@ -129,3 +129,15 @@ footer{
     text-align:center;
     color:white
 }
+
+.menu-header{
+    color:white;
+    text-align:center;
+    padding:15px;
+    font-size:45px;
+}
+
+hr{
+    border-color:#858585;
+    padding:5px;
+}
