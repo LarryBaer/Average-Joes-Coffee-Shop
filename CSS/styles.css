@@ -146,5 +146,45 @@ hr{
     padding:5px;
 }
 
+@media only screen and (max-width: 700px) {
+    
+    .home-caption p{
+        margin-right:65px;
+    }
+    
+    .caption-button{
+        margin-right:65px;
+    }
+}
 
+@media only screen and (max-width: 580px) {
+    .t{
+        display:none;
+    }
+    
+    .home-caption p{
+        margin-right:65px;
+        float:left;
+    }
+    
+    .caption-button{
+        margin-right:65px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .t{
+        display:none;
+    }
+    
+    .home-caption p{
+        margin-right:65px;
+        float:left;
+    }
+    
+    .caption-button{
+        margin-right:65px;
+    }
+    
+}
 
